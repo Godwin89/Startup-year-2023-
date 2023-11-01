@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CSS</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  </head>
+<link rel="stylesheet" type="text/css" href="stylej.css">
+</head>
+
+<nav class="navbar bg-body-tertiary fixed-top">
+  <div class="container-fluid">
+  	<div class="fr">
+    <a class="navbar-brand" href="#">Nice Fruit Recipe!</a>
+</div>
+    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Nice Fruit Recipe</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Fruits</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Order Now
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Our Team</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToDJdCy-aUslI6Vamh649HMohP6u7EKJiKRg12aClUhg&s">Something else here</a></li>
+            </ul>
+          </li>
+        </ul>
+        <form class="d-flex mt-3" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<header class="text-center">
+	<div></div>
+	<nav class="zone blue">
+		<ul class="main-nav">
+			<li><a href="about.html">Fruits</a></li><br>
+			<li><a href="newpage.html">Our Team</a></li><br>
+			<li><a href="">Order Now</a></li><br>
+			<li class="push"><ul>
+				<li><a href="#"><svg xmlns="http://www.w3.org/2000/svg width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: ;msFilter:;"><path d="M19.633 7.997c.013.175.013.349.013.523 0 5.325-4.053 11.461-11.46 11.461-2.282 0-4.402-.661-6.186-1.809.324.037.636.05.973.05a8.07 8.07 0 0 0 5.001-1.721 4.036 4.036 0 0 1-3.767-2.793c.249.037.499.062.761.062.361 0 .724-.05 1.061-.137a4.027 4.027 0 0 1-3.23-3.953v-.05c.537.299 1.16.486 1.82.511a4.022 4.022 0 0 1-1.796-3.354c0-.748.199-1.434.548-2.032a11.457 11.457 0 0 0 8.306 4.215c-.062-.3-.1-.611-.1-.923a4.026 4.026 0 0 1 4.028-4.028c1.16 0 2.207.486 2.943 1.272a7.957 7.957 0 0 0 2.556-.973 4.02 4.02 0 0 1-1.771 2.22 8.073 8.073 0 0 0 2.319-.624 8.645 8.645 0 0 1-2.019 2.083z"></path></svg></a></li>
+				
+				<a href="#"><svg xmlns="http://www.w3.org/2000/svg width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: ;msFilter:;"><path d="M12.043 6.925a4.985 4.985 0 0 0-4.98 4.979c-.001.94.263 1.856.761 2.649l.118.188-.503 1.837 1.885-.494.181.108a4.97 4.97 0 0 0 2.535.693h.001a4.986 4.986 0 0 0 4.979-4.978 4.946 4.946 0 0 0-1.456-3.522 4.946 4.946 0 0 0-3.521-1.46zm2.928 7.118c-.125.35-.723.668-1.01.711a2.044 2.044 0 0 1-.943-.059 8.51 8.51 0 0 1-.853-.315c-1.502-.648-2.482-2.159-2.558-2.26-.074-.1-.61-.812-.61-1.548 0-.737.386-1.099.523-1.249a.552.552 0 0 1 .4-.186c.1 0 .199.001.287.005.092.004.215-.035.336.257.125.3.425 1.036.462 1.111.037.074.062.162.013.262-.05.101-.074.162-.15.25-.074.088-.157.195-.224.263-.075.074-.153.155-.066.305.088.149.388.64.832 1.037.572.51 1.055.667 1.204.743.15.074.237.063.325-.038.087-.101.374-.437.474-.586.1-.15.199-.125.337-.076.137.051.873.412 1.022.487.148.074.249.112.287.175.036.062.036.361-.088.711z"></path><path d="M20 3H4a1 1 0 0 0-1 1v16a1 1 0 0 0 1 1h16a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1zm-7.96 14.896h-.002a5.98 5.98 0 0 1-2.862-.729L6 18l.85-3.104a5.991 5.991 0 0 1 5.19-8.983 5.95 5.95 0 0 1 4.238 1.757 5.95 5.95 0 0 1 1.751 4.237 5.998 5.998 0 0 1-5.989 5.989z"></path></svg></a>
+
+              <a href="#"><svg xmlns="http://www.w3.org/2000/svg width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: ;msFilter:;"><path d="M20 3H4a1 1 0 0 0-1 1v16a1 1 0 0 0 1 1h8.615v-6.96h-2.338v-2.725h2.338v-2c0-2.325 1.42-3.592 3.5-3.592.699-.002 1.399.034 2.095.107v2.42h-1.435c-1.128 0-1.348.538-1.348 1.325v1.735h2.697l-.35 2.725h-2.348V21H20a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1z"></path></svg></a>
+
+	         <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: ;msFilter:;"><path d="M20.283 10.356h-8.327v3.451h4.792c-.446 2.193-2.313 3.453-4.792 3.453a5.27 5.27 0 0 1-5.279-5.28 5.27 5.27 0 0 1 5.279-5.279c1.259 0 2.397.447 3.29 1.178l2.6-2.599c-1.584-1.381-3.615-2.233-5.89-2.233a8.908 8.908 0 0 0-8.934 8.934 8.907 8.907 0 0 0 8.934 8.934c4.467 0 8.529-3.249 8.529-8.934 0-.528-.081-1.097-.202-1.625z"></path></svg></a>
+			
+
+		</ul>
+	</nav>
+</header>
+<section>
+	<h1><div class="container purple">YUMMY FRUIT SALAD!</div></h1>
+<div class="sm">
+
+<div class="ic">	
+<!--p>@</p-->
+<!--p>f</p-->
+<!--p>o</p-->
+<!--p>l</p-->
+<!--p>l</p-->
+<!--p>o</p-->
+<!--p>w</p-->
+<!--p>us</p-->
+		<!--a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(58, 50, 187, 1);transform: ;msFilter:;"><path d="m20.665 3.717-17.73 6.837c-1.21.486-1.203 1.161-.222 1.462l4.552 1.42 10.532-6.645c.498-.303.953-.14.579.192l-8.533 7.701h-.002l.002.001-.314 4.692c.46 0 .663-.211.921-.46l2.211-2.15 4.599 3.397c.848.467 1.457.227 1.668-.785l3.019-14.228c.309-1.239-.473-1.8-1.282-1.434z"></path></svg></a>
+			<a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(65, 10, 10, 1);transform: ;msFilter:;"><path d="M20.947 8.305a6.53 6.53 0 0 0-.419-2.216 4.61 4.61 0 0 0-2.633-2.633 6.606 6.606 0 0 0-2.186-.42c-.962-.043-1.267-.055-3.709-.055s-2.755 0-3.71.055a6.606 6.606 0 0 0-2.185.42 4.607 4.607 0 0 0-2.633 2.633 6.554 6.554 0 0 0-.419 2.185c-.043.963-.056 1.268-.056 3.71s0 2.754.056 3.71c.015.748.156 1.486.419 2.187a4.61 4.61 0 0 0 2.634 2.632 6.584 6.584 0 0 0 2.185.45c.963.043 1.268.056 3.71.056s2.755 0 3.71-.056a6.59 6.59 0 0 0 2.186-.419 4.615 4.615 0 0 0 2.633-2.633c.263-.7.404-1.438.419-2.187.043-.962.056-1.267.056-3.71-.002-2.442-.002-2.752-.058-3.709zm-8.953 8.297c-2.554 0-4.623-2.069-4.623-4.623s2.069-4.623 4.623-4.623a4.623 4.623 0 0 1 0 9.246zm4.807-8.339a1.077 1.077 0 0 1-1.078-1.078 1.077 1.077 0 1 1 2.155 0c0 .596-.482 1.078-1.077 1.078z"></path><circle cx="11.994" cy="11.979" r="3.003"></circle></svg>
+			</a-->
+		</div>
+		</div>
+</section>
+
+   <div class="mg">
+	<img src="https://hips.hearstapps.com/hmg-prod/images/pasta-salad-horizontal-jpg-1522265695.jpg?crop=1xw:0.8435812837432514xh;center,top&resize=1200:*" width="350px" height="350px">
+<img src="https://cdn.eathappyproject.com/wp-content/uploads/2021/08/Different-Categories-of-Fruits-Introduction.jpg" width="350px" height="350px">
+	<img src="https://a-z-animals.com/media/2022/11/shutterstock_527779927-1024x682.jpg" width="350px" height="350px"><br>
+	<img src="https://i0.wp.com/post.healthline.com/wp-content/uploads/2021/11/durian-1296x728-header.jpg?w=1155&h=1528" width="350px" height="350px">
+	<img src="https://nomadparadise.com/wp-content/uploads/2021/03/weird-fruits-07-735x490.jpg.webp" width="350px" height="350px">
+	<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDMmRFddcuplfdgas2vvEVOqKpesvl7dlZgqYKkshSJGZtAHLvMdug2wUSiGUT4WfZyiY&usqp=CAU" width="350px" height="350px">
+</div>
+<div class="p">
+<p>
+	Fruits are a perfect way of gaining some major nutrients and are the best source of Vitamin A, vitamin C, and some other minerals.<br> They are also considered the best sources of dietary fiber.
+
+Fresh fruits are generally low in calories because they contain enough water in them with a little fat.<br> But in the case of frozen foods, the addition of sugar will result in increasing the calories. We generally refer to fruits by their sweet or sour taste,<br> but fruits are a seed-bearing structure in biological terms.
+
+In this article, we will discuss all different types of fruits along with their properties.<br> After reading the interesting facts about these fruits, you will appreciate them more.
+
+<h2>What is a Fruit?</h2>
+The fruit is just a product of trees that bears the seed and can be consumed by all living beings.<br> Some of them are sweet, while the others are sour. There are wide varieties of fruits available on the planet. Some of them can be eaten raw,<br> while some can be eaten in frozen form.<br> Some of the vegetables, such as tomatoes, cucumbers, squash, etc., are also treated as fruits.<br>
+<h2>Different Categories of Fruits: Introduction</h2>
+</p>
+</div>
+<div class="mc">
+<img src="https://cdn.eathappyproject.com/wp-content/uploads/2021/02/Different-Types-of-Fruits-along-with-Their-Name-and-Picture.jpg" width="350px" height="350px">
+<img src="https://horticulture.co.uk/wp-content/uploads/2021/11/3-46.jpg" width="350px" height="350px">
+<img src="https://a-z-animals.com/media/2022/11/shutterstock_1815658211.jpg" width="350px" height="350px">
+<img src="https://nomadparadise.com/wp-content/uploads/2021/03/weird-fruits-01-735x490.jpg.webp" width="350px" height="350px">
+<img src="https://nomadparadise.com/wp-content/uploads/2021/03/weird-fruits-04-735x490.jpg.webp" width="350px" height="350px">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuP_O_M7zv3pC79EtkXkKjwRVuUtrM77ZgRlRRxtl33cOKhbjigVvIxCSfUOQdr9exTao&usqp=CAU" width="350px" height="350px">
+</div>
+
+
+    <div class="ps">
+	<p>Fruits are generally divided into some subcategories such as:
+
+Achene
+Achene is a dry fruit developed from a single ovary and consists of a thin wall around its seed. Strawberry, Sunflower Seeds, etc., are some of the examples of Achene.
+
+Berry
+Berries are the most popular types of fruits because of their delicious taste. They are also considered the healthiest food on the planet.
+
+Berries are small juicy fruits with a sour, sweet, or tart taste depending on their categories. Strawberries, Blueberries, Raspberry, etc., are some of the examples of Berries.
+
+Berries are very healthy because they are packed up with a lot of antioxidants in a small package.
+
+Pomes
+Pomes are those fruits that have a hard covering around their seed. Apples and Pears are examples of Pome fruits.
+
+The main characteristic of this category of fruits is its central core, which surrounds the seed. 
+
+Caryopsis
+Caryopsis is a type of fruit mostly seen in cereals; it is the single fruit in the walls of the ovaries joined to the outer seed covering.
+
+Corn, Rice, Rye, Oats, etc., are some of Caryopsis Fruits’ most common types.
+
+Drupe
+Drupes are those kinds of fruits with a single seed only and are surrounded by a hard layer. Drupes are generally sweet, juicy fruits, and they are also a rich source of vitamins, minerals, and fibers.
+
+Mangoes, apricots, cherries, plums, etc., are different examples of Drupes.
+
+Legume
+Legumes are generally long sized fruits and contain many seeds inside them. These seeds are released when the fruit is peeled along.
+
+Peas, Beans, Peanuts, etc., are some different examples of Legumes.
+
+Nut
+A Nut is considered a dry fruit with a tough outer covering, and inside the hard shell, there is a single edible seed.
+
+Chestnuts, Hazelnuts, Acorns, etc., are some different examples of Nuts.
+
+Citrus Fruits
+Citrus fruits are also considered as a variety of berries. They come in different colors ranging from yellow to orange. Their segments are filled with tiny liquid-filled carpels that contain citrus juice.
+
+The protective covering around the citrus fruits is also very beneficial. It contains volatile oil, which is mostly used in making essential oils.
+
+Lemon, Lime, Pomelo, etc., are different examples of Citrus Fruits.</p>
+
+	<h2>Things That Make up These Natural Fruit That's Good For Your Health</h2>
+
+	<ul>
+		<li>Apricot</li>
+		<li>Basil</li>
+		<li>Cherries</li>
+		<li>Beets</li>
+		<li>Coconut</li>
+		<li>Celery</li>
+	</ul>
+	
+       <!--div class="boxmodel">1</div>
+       <div class="boxmodel">2</div>
+       <div class="boxmodel">3</div-->
+   
+
+</main>
+<body>
+	<a href="newpage.html">newpagess</a>
+	<p>
+I think you should try a full plate of fruit salad often; at least once in a week. It improves both psychological health and body fitness.
+
+This page is completely about fruit salads, I have spent the last few months exploring healthy Nigerian foods.<br>
+
+I have also written a couple of articles on the subject which you have probably read if you are a member of the Nigerian Kitchen.
+
+I believe healthy foods are vital for the development and health of the body cells, and we are as healthy as our body cells.
+
+So what am I saying in a nutshell?
+
+I say that fruits (as long as they are natural and fresh) remain top on the list of healthy foods of all time.
+
+Starting from apples to soursop, watermelons, cucumber, tomatoes, carrots, garden eggs, they all play specific roles to our optimum health.<br>
+
+If you can flashback to the days of our forefather,<br> you remember they lived longer because they consumed mostly fresh foods from the farm and lived in a less polluted environment.
+
+The story is not the same anymore, today we live in polluted environments and eat processed nutrient-drained foods.
+
+We feed our kids with noodles, biscuits, ice cream and think less of fresh foods.
+
+Some of us don’t even know that Akamu (pap) is significantly better than custards.<br> Anyway, that is a talk for another day. 😀
+A plate of fruits salad should comprise at least five of your most favorite fruits, for me, it is usually, watermelon, oranges, pineapples, grapes, bananas and sometimes mangoes and apples are also added.</p>
+<hr/>
+</div>
+<div class="fs">
+<div class="channel">
+
+	<div class="fu">
+	<h2 class="nav-item">Follow us</h2>
+	<ul>
+	<li>Dribble</li>
+	<li>Instagram</li>
+	<li>LinkedIn</li>
+	<li>Facebook</li>
+	<li>Twitter</li>
+	<li>Whatsapp</li>
+	<li>Medium</li>
+</ul>
+</div>
+<hr style="width: 1px; height: 80px;">
+
+<div class="vu">
+<div><h2 class="visit">Visit us</h2></div>
+<ul>
+	 <li>@Nice friut</li>
+	 <li>ng. london opi 12, 88145</li>
+	 <li>client$everyday</li>
+</ul>
+</div>
+
+<div class="com">
+ <h2>Company service</h2> 
+<ul>
+<li>Blog</li>
+<li>Wholesale</li>
+<li>Retail</li>
+<li>Distributed nation wide</li>
+</ul>
+</div>
+  
+<div class="cu">
+ <h2>Call us</h2> 
+ <ul>
+ 	<li id="no">Nigeria</li>
+ 	<ul>
+ 		<li id="num">+2349150377685</li>
+ 	</ul>
+ 	<li id="no">United Kingdom</li>
+ 	<ul>
+ 		<li id="num">+4490345627</li>
+ 	</ul>
+ 	<li id="no">United States</li>
+ 	<ul>
+ 		<li id="num">+1(415)897680423</li>
+ 	</ul>
+ </ul>
+</div>
+</div>
+</div>
+<footer>
+	<h5 id="order now">Order Now</h5>
+	<form onsubmit="alert('Order Now')">
+		<input type="text" placeholder="Enter Email Address">
+		<button>Summit</button>
+
+		
+	</form>
+	<br/>
+
+	<div>&copy; jaja fruitrecipe.com</div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+
+
+</body>
+</html>

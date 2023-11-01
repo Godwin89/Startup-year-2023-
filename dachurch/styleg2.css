@@ -1,0 +1,105 @@
+body{
+	margin: auto 0;
+	font-family: Arial;
+}
+
+.love{
+	/*padding: 30px 50px;
+	margin: 40px 60px;*/
+	cursor: pointer;
+	/*display: inline-block;*/
+	color: #FFF;
+	font-size: 2em;
+	border-radius: 4px;
+	border: 1px solid #bbb;
+	transition: all 0.3s linear;
+}
+
+.love:hover{
+	-webkit-transform: rotate(-1deg);
+	-moz-transform: rotate(-1deg);
+	-0-transform:rotate(-1deg);
+	transform:rotate(-1deg);
+}
+
+.sticky{
+	position: fixed;
+	top: 0;
+	width: 100%;
+
+}
+
+.main-nav{
+	display: flex;
+	list-style: none;
+	font-size: 0.7em;
+	margin: 0;
+}
+@media only screen and (max-width: 600px) {
+	.main-nav{
+		font-size: 0.5em;
+		padding: 0;
+	}
+}
+
+.push{
+	margin-left: auto;
+}
+
+li{
+	padding: 20px;
+}
+
+a{
+	color:#f5f5f6;
+	text-decoration: none;
+}
+/*cover*/
+.container{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 50vh;
+}
+.cover{
+	width: 30rem;
+}
+
+/*grid*/
+.grip-wrapper{
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: repeat(auto-fill, minmax( 350px, 1fr));
+}
+
+
+.love >img{
+width: 100%;
+}
+
+.love{
+	background-color: #444;
+	padding: 10px;
+	margin: 1px;
+}
+
+footer{
+	text-align: center;
+}
+
+.red{
+	background: green;
+}
+
+.brown{
+	background: gray;
+
+}
+
+.purple{
+	background: purple;
+}
+
+.yellow{
+	background: lightsalmon;
+}

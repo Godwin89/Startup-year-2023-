@@ -1,0 +1,192 @@
+li {
+	list-style: none;
+}
+.text-center {
+	margin-top: 50px;
+}
+.fr{
+	font-style: oblique;
+	cursor: pointer;
+	background-color: saddlebrown;
+
+
+}
+
+
+
+.contianer{
+	display: grid;
+	grid-gap: 20px;
+	justify-content: center;
+	justify-items: end;
+	grid-template-rows: repeat(auto-fill, minmax(200px, 1fr));
+}
+
+h2{
+	font-family: fantasy;
+	font-size: 3em;
+
+}
+ h1{
+ 	display:grid ;
+    justify-content: start;
+ 	
+ 	height: 100px;
+ 	color: gray;
+ }
+
+body{
+	background-color:floralwhite;
+	justify-content: center;
+}
+.fruit{
+	grid-column: 1/4;
+}
+.mg{
+	margin: 20px 400px;
+	margin-bottom: 70px;
+
+
+}.ic{
+	display: grid;
+	
+
+
+}
+
+.mc{
+	margin: 20px 400px;
+}
+
+.p{
+	margin: 20px 400px;
+}
+
+.ps{
+	margin: 20px 400px;
+}
+
+/*.fs{
+	margin: 20px 400px;
+}*/
+
+.blue{
+	grid-column-start: 1;
+	grid-column-end: 3;
+	background: #56B870;
+
+}
+
+.sm p {
+	font-size: 28px;
+	font-weight: bold;
+	margin: 0 50px;
+}
+
+.sm a {
+	margin: 0 50px;
+}
+
+img{
+
+transition: all 1s;
+
+}
+img:hover{
+	transform: scale(1.1);
+}
+
+
+.main-nav{
+	display: flex;
+	list-style: none;
+	font-size: 1.7em;
+	margin: 1;
+	padding: 10px;
+}
+
+
+
+li{
+	padding: 20px;
+}
+a{
+
+	margin-inline: 2px;
+}
+
+a{
+	color: #f5f5f6;
+	text-decoration: none;
+}
+
+.push{
+	margin-left: auto;
+}
+
+.push ul li {
+	display: inline-block;
+	margin: 0px;
+	padding: 0px;
+	/*display: flex;
+	flex-direction: row;*/
+}
+
+.channel{
+	display: flex;
+    flex-wrap: wrap;
+	justify-content: center;
+	justify-items: end;
+	margin-top: 0px;
+	margin-bottom: 1px;
+	padding-top: 0px;
+	padding-bottom:1px;
+	color: black;
+	background-color: antiquewhite;
+
+}
+
+.fu h2{
+	margin: 10px 0 0 -80px;
+	
+}
+
+.fu ul{
+	margin: 10px 0 0 -130px;
+	
+}
+
+.vu h2{
+	margin: 10px 0 0 250px;
+}
+
+.vu ul{
+	margin: 10px 0 0 200px;
+}
+
+.com h2{
+	margin: 10px 0 0 250px;
+}
+.com ul{
+	margin: 10px 0 0 210px;
+}
+
+.cu h2{
+	margin: 10px 0 0 250px;
+}
+
+#no {
+	margin: 0 0 0 200px;
+}
+
+ #num{
+	margin: 0 0 0 200px;
+}
+
+.sm{
+	display: flex;
+	flex-direction: column;
+	font-size: 2.7em;
+	margin: 2px;
+	
+}
